@@ -10,10 +10,8 @@ import ibrahim from "../public/ava-ibrahim.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web6 from "../public/web6.png";
 import porto1 from "../public/porto1.png";
 import porto2 from "../public/porto2.png";
-import porto3 from "../public/porto3.png";
 import porto4 from "../public/porto4.png";
 import porto5 from "../public/porto5.png";
 import { useState } from "react";
@@ -184,10 +182,10 @@ export default function Home() {
                 Website Sistem Informasi Alumni Prodi Sistem Informasi UPN
                 Veteran Jawa Timur yang di develop menggunakan bahasa
                 pemrograman PHP dan framework CodeIgniter 4 <br></br>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   PHP
                 </span>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   CodeIgniter
                 </span>
               </p>
@@ -204,10 +202,10 @@ export default function Home() {
                 Website apotek atau toko obat-obatan. website ini diciptakan
                 dengan memanfaatkan bahasa pemrograman PHP serta dengan bantuan
                 framework CodeIgniter 4<br></br>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   PHP
                 </span>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   CodeIgniter
                 </span>
               </p>
@@ -223,10 +221,10 @@ export default function Home() {
               <p className="pt-2 pb-3 px-4 mt-2 bg-gray-100 rounded leading-loose dark:bg-gray-700 dark:text-gray-400">
                 Website Text-to-Speech yang memanfaatkan API dari google yang
                 diproses menggunakan bahasa pemrograman JavaScript.<br></br>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   JavaScript
                 </span>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   API
                 </span>
               </p>
@@ -251,7 +249,7 @@ export default function Home() {
                   disini.
                 </a>
                 <br></br>
-                <span className="py-1 px-1 mr-1 rounded text- bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
+                <span className="py-1 px-1 mr-1 rounded bg-gray-300 dark:bg-gray-600 dark:text-gray-300">
                   Figma
                 </span>
               </p>
