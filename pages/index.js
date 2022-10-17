@@ -61,7 +61,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
               Aspiring young programmer but also a professional one. Hit me up
-              down below and let's get some coding action going!
+              down below and let{"'"}s get some coding action going!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -76,7 +76,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-10 overflow-hidden md:h-96 md:w-96">
-            <Image src={ibrahim} layout="fill" objectFit="cover" />
+            <Image src={ibrahim} alt="avatar" layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -100,7 +100,7 @@ export default function Home() {
 
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="design" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Beautiful Design
               </h3>
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="code" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Efficient Code
               </h3>
@@ -130,13 +130,18 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
-              <Image src={consulting} width={100} height={100} />
+              <Image
+                src={consulting}
+                alt="consulting"
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Free Consultation
               </h3>
               <p className="py-2 text-gray-500">
                 Offering free software consultation service so that you can
-                choose what's the best for your needs.
+                choose what is the best for your needs.
               </p>
               <h4 className="py-4 text-teal-600">Contact me at</h4>
               <p className="text-gray-500 py-1 hover:underline">
@@ -173,6 +178,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer shadow-lg dark:bg-gray-800 rounded">
               <Image
                 src={porto1}
+                alt="porto1"
                 className="rounded-lg object-scale-down"
                 width={"100%"}
                 height={"100%"}
@@ -193,6 +199,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer shadow-lg dark:bg-gray-800 rounded">
               <Image
                 src={porto4}
+                alt="porto1"
                 className="rounded-lg object-scale-down"
                 width={"100%"}
                 height={"100%"}
@@ -213,6 +220,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer shadow-lg dark:bg-gray-800 rounded">
               <Image
                 src={porto5}
+                alt="porto1"
                 className="rounded-lg object-scale-down"
                 width={"100%"}
                 height={"100%"}
@@ -233,6 +241,7 @@ export default function Home() {
               <a href="../public/porto1.png">
                 <Image
                   src={porto2}
+                  alt="porto1"
                   className="rounded-lg object-scale-down"
                   width={"100%"}
                   height={"100%"}
